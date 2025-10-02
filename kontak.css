@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.per{
+    width: 90%;
+    margin-left: 5%;
+    height: 20vh;
+     background-image: linear-gradient(to right, #007f1c, #037c18, #077a13, #09770e, #0c7508, #0b7108, #096d07, #086907, #04620b, #025b0e, #005510, #004e11);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.kun{
+    min-width: 600px;
+    flex: 3;
+    padding: 10px;
+}
+
+.kun h2{
+    color: #ffffffff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10vh;
+}
+
+
+.kin{
+    min-width: 300px;
+    flex: 1;
+    padding-left: 100px;
+    padding-top: 15px;
+}
+
+.kin a{
+   display: inline-block;
+  background-color: #f97316; /* Warna oranye */
+  color: white;
+  font-weight: bold;
+  padding: 12px 30px;
+  text-align: center;
+  border-radius: 999px; /* Membulat penuh */
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Bayangan halus */
+  transition: background-color 0.3s ease;
+}
+
+@media(max-width: 768px){
+    .per{
+        height: auto;
+        
+    }
+
+    .kin a{
+      padding: 6px 20px;
+    }
+    .kun{
+        flex: 1;
+        min-width: 300px;
+        padding: 10px;
+
+    }
+
+    .kun h2{
+        font-size: 22px;
+        line-height: 4vh;
+    }
+
+
+    .kin{
+        flex: 1;
+        min-width: 100px;
+        padding: 10px;
+        /* align-items: center; */
+        align-items: center;
+      justify-content: center;
+    }
+}
+
+.kontak h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.kontak2 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+}
+
+.maps iframe{
+    width: 90%;
+    margin-left: 5%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px){
+    .maps iframe{
+        height: 380px;
+    }
+}

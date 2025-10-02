@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.sej h2{
+  font-size: 40px;
+  text-align: center;
+  color: #019c23;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media(max-width: 768px){
+    .sej h2{
+        font-size: 28px;
+    }
+}
+
+.ipnu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+.nu h2{
+    color: #019c23;
+}
+
+.ip img{
+    width: 300px;
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    .ipnu{
+        flex-wrap: wrap;
+    }
+
+    .ip img{
+        width: 200px;
+    }
+}

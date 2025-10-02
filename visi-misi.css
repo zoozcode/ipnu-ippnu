@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.atas{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: azure;
+    box-shadow: 
+    4px 4px 8px rgba(0, 0, 0, 0.2),   /* kanan bawah */
+   -4px 4px 8px rgba(0, 0, 0, 0.2);   /* kiri bawah */
+}
+
+.atas h2, p{
+    padding: 10px;
+    
+}
+
+.atas p{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: start;
+}
+.atas h2{
+    font-weight: bold;
+    color: rgb(240, 88, 17);
+}
+
+.fa-fire{
+    color: rgb(240, 88, 17);
+}
+
+.fa-rocket{
+    color: rgb(240, 88, 17);
+}
