@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.by h2{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #007f1c, #037c18, #077a13, #09770e, #0c7508, #0b7108, #096d07, #086907, #04620b, #025b0e, #005510, #004e11);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
